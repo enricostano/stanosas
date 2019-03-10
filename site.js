@@ -96,7 +96,7 @@ $(document).ready(function (){
       var myLatLng = new google.maps.LatLng(40.388303, 17.634001);
       var mapOptions = {
         center: myLatLng,
-        zoom: 17,
+        zoom: 18,
         mapTypeId: google.maps.MapTypeId.ROADMAP
       };
       var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
